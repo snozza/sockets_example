@@ -1,0 +1,19 @@
+{
+  "name": "sockets_example",
+  "version": "1.0.0",
+  "description": "Sample test suite for socket.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^1.3.3"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "socket.io-client": "^1.3.3"
+  }
+}
