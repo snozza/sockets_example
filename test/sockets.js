@@ -18,8 +18,7 @@ describe('Server receives and action socket emissions', function() {
   });
 
   after(function(done) {
-    server.close();
-    done();
+    server.close(done);
   });
 
   it('echos the socket emission from client', function(done) {
