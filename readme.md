@@ -4,6 +4,7 @@ Socket.io Tests
 ### Introduction
 
 Simple server only package to demonstrate testing socket.io in node.
+Uses Socket.io-client to connect sockets from a test suite.
 
 ### Languages/Platforms/Tools
 
